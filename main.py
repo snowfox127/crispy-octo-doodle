@@ -12,7 +12,7 @@ class RoundRobinLoadBalancer:
 
 # Example Usage:
 if __name__ == "__main__":
-    servers = ["Server1", "Server2", "Server3"]  # List of server names or IPs
+    servers = ["server1","server2","server3"]  
     load_balancer = RoundRobinLoadBalancer(servers)
     
     # Simulate requests
